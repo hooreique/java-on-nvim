@@ -9,7 +9,13 @@ gradle init
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "java",
   callback = function()
-    require('jdtls').start_or_attach { cmd = { 'jdtls', '-data', datadir } }
+    require('jdtls').start_or_attach {
+      cmd = {
+        'jdtls',
+        '-data',
+        datadir, -- 💀
+      },
+    }
   end,
 })
 ```
