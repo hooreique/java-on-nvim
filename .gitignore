@@ -8,9 +8,3 @@ build
 .idea
 .vscode
 .metadata
-
-# language server data
-.project
-.settings
-.classpath
-bin
