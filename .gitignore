@@ -3,3 +3,14 @@
 
 # Ignore Gradle build output directory
 build
+
+# IDE data
+.idea
+.vscode
+.metadata
+
+# language server data
+.project
+.settings
+.classpath
+bin
